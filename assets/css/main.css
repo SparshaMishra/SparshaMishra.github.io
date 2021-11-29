@@ -2362,20 +2362,19 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
-
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: transparent;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: transparent;
 			}
 
 		table td {
@@ -2383,7 +2382,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #787878;
+			color: #fcfafa00;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2391,11 +2390,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: transparent;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: transparent;
 		}
 
 		table.alt {
@@ -2403,7 +2402,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: transparent;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
